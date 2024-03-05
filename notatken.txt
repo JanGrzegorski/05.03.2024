@@ -1,0 +1,16 @@
+Temat: biblioteka PDO connect do bazy danych
+-------------------------MYSQLI--------------------------------
+-new mysqli-połączenie za pomoca konstruktora klesy Mysqli
+-mysqli_connect - połączenie za pomocą funkcji 
+---------------------------------------------------------------
+-PDO- połaczenie przez biblioteke za pomoca konstruktora klasy PDO
+	Mysql, Postgresql, SQLITE
+-ODBC
+-inne...
+
+try {
+        $polaczenie = new PDO('mysql:host='.$server.';dbname='.$bazadanych.';port ='.$port."charset=utf8",$username,$password);
+    } catch () {
+        
+    }
+żeby wciepało baze przez pdo
